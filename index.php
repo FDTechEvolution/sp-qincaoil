@@ -7,6 +7,8 @@
     <meta name="author" content="">
     <meta name="generator" content="">
     <title>น้ำมันสกัดเย็น คิว อินคา ออย์ | น้ำมันถั่วดาวอินคาของขวัญจากธรรมชาติ</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     
     <!--https://getbootstrap.com/docs/5.0 -->
     <link href="dist/css/bootstrap.css" rel="stylesheet">
