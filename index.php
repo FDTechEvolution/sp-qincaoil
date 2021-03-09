@@ -11,9 +11,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     
     <!--https://getbootstrap.com/docs/5.0 -->
-    <link href="dist/css/bootstrap.css" rel="stylesheet">
-    <link href="dist/css/blog.css" rel="stylesheet">
-    <link href="dist/fonts/prompt.css" rel="stylesheet">
+    <link href="https://sp-dist.orderpang-sv.com/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="https://sp-dist.orderpang-sv.com/dist/css/blog.css" rel="stylesheet">
+    <link href="https://sp-dist.orderpang-sv.com/dist/fonts/prompt.css" rel="stylesheet">
 
     <!-- My Style -->
     <link href="dist/css/style.css" rel="stylesheet">
@@ -31,7 +31,8 @@
   <header class="blog-header pt-0 pb-3">
     <div class="row">
       <div class="col-12">
-        <img src="dist/img/cover/cover_qinca_01.jpg" class="img-fluid" title="" alt="">
+        <img src="dist/img/cover/cover_qinca_main.png" class="img-fluid position-relative" title="" alt="" style="z-index: 99;">
+        <img src="dist/img/cover/cover_qinca_01_1.jpg" class="img-fluid" title="" alt="" style="margin-top: -30px;">
         <img src="dist/img/cover/cover_qinca_02.jpg" class="img-fluid" title="" alt="">
       </div>
     </div>
@@ -166,8 +167,6 @@
         
       </div>
     </div>
-
-    <thank-you v-if="showResponse"></thank-you>
 
   </main>
 
